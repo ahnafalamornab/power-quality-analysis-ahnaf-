@@ -1,5 +1,4 @@
- Created by Ahnaf on 28/04/2026.
-
+ 
 #ifndef POWER_QUALITY_ANALYSER_WAVEFORM_H
 #define POWER_QUALITY_ANALYSER_WAVEFORM_H
 typedef struct {
