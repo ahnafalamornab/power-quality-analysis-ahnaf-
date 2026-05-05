@@ -1,4 +1,4 @@
-Created by Ahnaf on 28/04/2026.
+
 
 #include <stdio.h>
 #include <stdlib.h>
