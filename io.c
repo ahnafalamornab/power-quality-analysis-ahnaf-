@@ -1,6 +1,4 @@
-//
-// Created by Ahnaf on 28/04/2026.
-//
+Created by Ahnaf on 28/04/2026.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +58,7 @@ WaveformSample *load_csv(const char *filename, int *count) {
 void export_results(const char *filename, double rmsA, double rmsB, double rmsC,
                     double p2pA, double p2pB, double p2pC,
                     double dcA, double dcB, double dcC) {
-    FILE *file = fopen(filename, "w"); // "w" মানে হলো write মোড
+    FILE *file = fopen(filename, "w"); // 
     if (file == NULL) {
         printf("Error: Could not create results file.\n");
         return;
