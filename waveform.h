@@ -1,6 +1,4 @@
-//
-// Created by Ahnaf on 28/04/2026.
-//
+ Created by Ahnaf on 28/04/2026.
 
 #ifndef POWER_QUALITY_ANALYSER_WAVEFORM_H
 #define POWER_QUALITY_ANALYSER_WAVEFORM_H
@@ -22,4 +20,4 @@ double compute_dc_offset(const WaveformSample *samples, int count, char phase);
 int count_clipped(const WaveformSample *samples, int count, char phase, double limit);
 int check_compliance(double rms);
 
-#endif //POWER_QUALITY_ANALYSER_WAVEFORM_H
+#endif 
